@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-const port=5000;
+const port = process.env.PORT || 5000;
 const expressLatouts=require('express-ejs-layouts');
 
 //cookie-parser and express-session required for noto
